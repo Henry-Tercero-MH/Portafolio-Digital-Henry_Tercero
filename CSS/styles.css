@@ -43,3 +43,7 @@ h2 {
   height: 350px;
   border-radius: 15px;
 }
+.textos-principal {
+  margin-top: 5rem;
+  text-align: center;
+}
