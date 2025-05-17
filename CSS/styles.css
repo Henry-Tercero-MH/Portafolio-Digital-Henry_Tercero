@@ -36,3 +36,21 @@ h2 {
     opacity: 0;
   }
 }
+/* resetea cualquier padding-top previo */
+#inicio {
+  padding-top: 0;
+}
+
+/* en móviles (hasta 767.98px) añade espacio igual a la altura de la navbar */
+@media (max-width: 767.98px) {
+  #inicio {
+    padding-top: 4rem; /* ajusta este valor según la altura real de tu navbar */
+  }
+}
+
+/* en desktop puedes volver a quitar el padding si no lo quieres */
+@media (min-width: 768px) {
+  #inicio {
+    padding-top: 0;
+  }
+}
