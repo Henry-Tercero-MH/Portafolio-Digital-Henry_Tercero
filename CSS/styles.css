@@ -11,6 +11,26 @@ h2 {
   height: 350px !important;
   border-radius: 15px;
 }
+/* 1. Imagen responsiva (como img-fluid) */
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* para que margin:auto funcione */
+}
+
+/* 2. Sombra (como shadow) */
+.custom-shadow {
+  /* Sombra similar a .shadow de Bootstrap */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* 3. Centrar dentro de su contenedor (como text-center + align-items-center) */
+.caja-img {
+  display: flex;
+  justify-content: center; /* centro horizontal */
+  align-items: center; /* centro vertical */
+}
+
 .margin-top {
   margin-top: 2.5rem;
 }
