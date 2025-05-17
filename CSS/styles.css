@@ -44,6 +44,7 @@ h2 {
 /* en móviles (hasta 767.98px) añade espacio igual a la altura de la navbar */
 @media (max-width: 767.98px) {
   #inicio {
+    margin-top: 3rem;
     padding-top: 4rem; /* ajusta este valor según la altura real de tu navbar */
   }
 }
