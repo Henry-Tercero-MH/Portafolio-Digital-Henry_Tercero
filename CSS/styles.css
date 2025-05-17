@@ -6,11 +6,6 @@ h2 {
   margin-bottom: 20px;
   font-family: "Poppins", sans-serif;
 }
-.caja-img img {
-  width: 250px;
-  height: 350px;
-  border-radius: 15px;
-}
 
 .margin-top {
   margin-top: 2.5rem;
@@ -36,22 +31,15 @@ h2 {
     opacity: 0;
   }
 }
-/* resetea cualquier padding-top previo */
-#inicio {
-  padding-top: 0;
+.caja-perfil {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-/* en móviles (hasta 767.98px) añade espacio igual a la altura de la navbar */
-@media (max-width: 767.98px) {
-  #inicio {
-    margin-top: 5rem;
-    padding-top: 4rem; /* ajusta este valor según la altura real de tu navbar */
-  }
-}
-
-/* en desktop puedes volver a quitar el padding si no lo quieres */
-@media (min-width: 768px) {
-  #inicio {
-    padding-top: 0;
-  }
+.caja-img img {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
 }
